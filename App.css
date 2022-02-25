@@ -1,0 +1,122 @@
+body, html{
+  overflow-x: hidden;
+}
+.overflowhidden{
+  overflow: hidden;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.navbar{
+  padding-top:0;
+  padding-bottom: 0;
+}
+
+.bg-light {
+ 
+  background-color: transparent !important;
+}
+header
+  {
+    box-shadow: 0px 15px 10px -15px #1116;
+}
+button.freeTrialButton {
+  padding: 5px 32px;
+  margin-right: 10px;
+  color: #fff;
+  border-radius: 0;
+  border: none;
+  background: #023047;
+}
+button.loginButton {
+  padding: 5px 50px;
+  color: #fff;
+  border: none;
+  border-radius: 0px;
+  background: #fb8602;
+}
+
+
+
+img.bannerImage {
+  width: 100%;
+}
+
+.FormContainer {
+  width: 90%;
+  margin: 0 auto;
+}
+button.formSubmitButton {
+  width: 100%;
+  border-radius: 0;
+  font-size: 16px;
+  margin-bottom: 10px;
+  background: #023047;
+}
+.form-check-input:checked{
+  background: #023047;
+}
+.rpc.form-check {
+  display: inline-block;
+  float: left;
+}
+span.forgotPassword {
+  display: inline-block;
+  float: right;
+}
+h2.formTitle {
+  text-align: center;
+  font-weight: 700;
+  font-size: 27px;
+}
+
+p.formSubTitle {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: #9a8e8e;
+}
+
+/*mobile */
+@media only screen and (max-width: 480px) {
+  .loginFormWrapper {
+    padding: 150px 0;
+   }
+   
+}
+
